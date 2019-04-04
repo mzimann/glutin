@@ -19,7 +19,7 @@ serde = ["winit/serde"]
 
 [dependencies]
 lazy_static = "1.1"
-winit = "0.19"
+winit = { git = "https://github.com/chrisduerr/winit", branch = "bsd-build-fix" }
 
 [target.'cfg(target_os = "android")'.dependencies]
 android_glue = "0.2"
